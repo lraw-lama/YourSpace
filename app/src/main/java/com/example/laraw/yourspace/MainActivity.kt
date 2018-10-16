@@ -8,15 +8,18 @@ import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-    //Button button;
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        Button button = (Button) findView
 
+        button1.setOnClickListener{
+            val intent = Intent(this,SignInPage::class.java)
+            startActivity(intent)
+        }
     }
 
 
