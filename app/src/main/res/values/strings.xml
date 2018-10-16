@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">YourSpace</string>
+    <string name="Help">Help</string>
+    <string name="sign_in">Sign in</string>
+    <string name="create_account">Create Account</string>
+    <string name="yourspace_2018">©YourSpace 2018</string>
+    <string name="welcome_to_yourspace">Welcome to YourSpace</string>
+    <string name="our_slogan">Our Slogan</string>
+    <string name="signIn">Sign In</string>
+</resources>
